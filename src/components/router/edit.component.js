@@ -18,9 +18,9 @@ class Edit extends Component {
         console.log('Getting data with id for editing..');
         console.log('http://localhost:4000/business/edit/' + this.props.match.params.id);
         this.setState({
-            person_name: 'Umut',
-            business_name: 'Yazılım',
-            business_gst_number: '101'
+          person_name: 'Umut',
+          business_name: 'Development',
+          business_gst_number: '101'
         });
     }
     onChangePersonName(e) {

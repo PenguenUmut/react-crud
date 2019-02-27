@@ -13,17 +13,17 @@ class Index extends Component {
             business : [{
                 _id:1,
                 person_name: 'Umut',
-                business_name: 'Yazılım',
+                business_name: 'Development',
                 business_gst_number: '101'
                 },{
                 _id:2,
-                person_name: 'Gonca',
-                business_name: 'Öğretmen',
+                person_name: 'Penguen',
+                business_name: 'Other',
                 business_gst_number: '202'
                 },{
                 _id:3,
-                person_name: 'Evrim',
-                business_name: 'Aylak',
+                person_name: 'Person Name',
+                business_name: 'Business Name',
                 business_gst_number: '303'
                 }]
         });
